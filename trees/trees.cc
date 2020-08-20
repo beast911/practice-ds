@@ -48,7 +48,7 @@ void insert(Node* temp, int key)
     }
 }
 
-Node* delete (struct Node* root, int keyToBeDeleted)
+Node* deleteNode(struct Node* root, int keyToBeDeleted)
 {
     if (root == NULL) {
         return NULL;
@@ -56,7 +56,7 @@ Node* delete (struct Node* root, int keyToBeDeleted)
 
     if (root->left == NULL && root->right == NULL) {
         if (root->key == keyToBeDeleted) {
-            return NULL
+            return NULL;
         } else {
             return root;
         }
@@ -64,6 +64,8 @@ Node* delete (struct Node* root, int keyToBeDeleted)
 
     queue<struct Node*> q;
     q.push(root);
+
+    return root;
 }
 
 // Driver code
