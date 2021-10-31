@@ -3,7 +3,7 @@
  * @return {number}
  */
 var maxDistToClosest = function (seats) {
-    let prev = -1; let right = 0;
+    let prev = -1;
     let res = 0;
     for (let i = 0; i < seats.length; i++) {
         if (seats[i]) {

@@ -1,6 +1,11 @@
-const { Node: TreeNode } = require('./tree');
-
-
+class TreeNode {
+    data; left; right;
+    constructor(data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+}
 var buildTree = function (preorder, inorder) {
     const build = (startInPreorder, currentInorder) => {
         if (startInPreorder === preorder.length) {
