@@ -55,3 +55,6 @@ _Examples_ :
 
   The solution set **must not** contain duplicate subsets. Return the solution in **any order**. **[Learned]**
 
+
+
+- Given `n` pairs of parentheses, write a function to *generate all combinations of well-formed parentheses*. **[Solved]**
