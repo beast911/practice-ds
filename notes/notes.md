@@ -87,4 +87,16 @@ _Examples_ :
   - Only numbers `1` through `9` are used.
   - Each number is used **at most once**.
 
-  Return *a list of all possible valid combinations*. The list must not contain the same combination twice, and the combinations may be returned in any order.
+  Return *a list of all possible valid combinations*. The list must not contain the same combination twice, and the combinations may be returned in any order. **[Solved]**
+
+
+
+- Given an array of strings `nums` containing `n` **unique** binary strings each of length `n`, return *a binary string of length* `n` *that **does not appear** in* `nums`*. If there are multiple answers, you may return **any** of them*. **[Solved but may need to optimize]**
+
+
+
+- You are given an integer array `jobs`, where `jobs[i]` is the amount of time it takes to complete the `ith` job.
+
+  There are `k` workers that you can assign jobs to. Each job should be assigned to **exactly** one worker. The **working time** of a worker is the sum of the time it takes to complete all jobs assigned to them. Your goal is to devise an optimal assignment such that the **maximum working time** of any worker is **minimized**.
+
+  *Return the **minimum** possible **maximum working time** of any assignment.*
