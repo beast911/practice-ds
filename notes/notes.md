@@ -99,4 +99,6 @@ _Examples_ :
 
   There are `k` workers that you can assign jobs to. Each job should be assigned to **exactly** one worker. The **working time** of a worker is the sum of the time it takes to complete all jobs assigned to them. Your goal is to devise an optimal assignment such that the **maximum working time** of any worker is **minimized**.
 
-  *Return the **minimum** possible **maximum working time** of any assignment.*
+  *Return the **minimum** possible **maximum working time** of any assignment.* **[Learned]**
+
+  **Note**: Creating all possible combinations of valid scenarios is the key. optimization involves removing unnecessary branches.
