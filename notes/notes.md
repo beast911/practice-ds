@@ -111,4 +111,5 @@ _Examples_ :
 
   - For example, if `nums = [2, 1]`, you can add a `'+'` before `2` and a `'-'` before `1` and concatenate them to build the expression `"+2-1"`.
 
-  Return the number of different **expressions** that you can build, which evaluates to `target`.
+  Return the number of different **expressions** that you can build, which evaluates to `target`. [**Solved**](../leetcode/findTargetSumWays.js)
+
