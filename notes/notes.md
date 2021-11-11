@@ -83,4 +83,32 @@ _Examples_ :
 
   **Note**: Creating all possible combinations of valid scenarios is the key. optimization involves removing unnecessary branches.
 
-- Given an integer array nums and an integer k, return true if it is possible to divide this array into k non-empty subsets whose sums are all equal.
+  This is a NP-complete problem, i.e solution is obtained in polynomial time.
+
+- Given an integer array nums and an integer k, return true if it is possible to divide this array into k non-empty subsets whose sums are all equal. **[Learned]**
+
+  _Note_:  need different type of optimization here because the result is a binary form of either true or false and not a collection from k^n to k*2^n
+
+- __[1774. Closest Dessert Cost]__ You would like to make dessert and are preparing to buy the ingredients. You have `n` ice cream base flavors and `m` types of toppings to choose from. You must follow these rules when making your dessert:
+
+  - There must be **exactly one** ice cream base.
+  - You can add **one or more** types of topping or have no toppings at all.
+  - There are **at most two** of **each type** of topping.
+
+  You are given three inputs:
+
+  - `baseCosts`, an integer array of length `n`, where each `baseCosts[i]` represents the price of the `ith` ice cream base flavor.
+  - `toppingCosts`, an integer array of length `m`, where each `toppingCosts[i]` is the price of **one** of the `ith` topping.
+  - `target`, an integer representing your target price for dessert.
+
+  You want to make a dessert with a total cost as close to `target` as possible.
+
+  Return *the closest possible cost of the dessert to* `target`. If there are multiple, return *the **lower** one.*
+
+- __[494. Target Sum]__ You are given an integer array `nums` and an integer `target`.
+
+  You want to build an **expression** out of nums by adding one of the symbols `'+'` and `'-'` before each integer in nums and then concatenate all the integers.
+
+  - For example, if `nums = [2, 1]`, you can add a `'+'` before `2` and a `'-'` before `1` and concatenate them to build the expression `"+2-1"`.
+
+  Return the number of different **expressions** that you can build, which evaluates to `target`.
