@@ -148,5 +148,8 @@ _Examples_:
 
   Return *the number of sub-arrays* of size `k` and average greater than or equal to `threshold`. [**Solved**](leetcode/numOfSubarrays.js)
 
-- **[1004. Max Consecutive Ones III]**  Given a binary array `nums` and an integer `k`, return *the maximum number of consecutive* `1`*'s in the array if you can flip at most* `k` `0`'s. [**Solved**](leetcode/longestOnes.js)
+- **[1004. Max Consecutive Ones III]**  Given a binary array `nums` and an integer `k`, return *the maximum number of consecutive* `1`*'s in the array if you can flip at most* `k` `0`'s. [**Learned**](leetcode/longestOnes.js)
 
+- **[1358. Number of Substrings Containing All Three Characters]** Given a string `s` consisting only of characters *a*, *b* and *c*.
+
+  Return the number of substrings containing **at least** one occurrence of all these characters *a*, *b* and *c*.
