@@ -1,6 +1,6 @@
 ### Techniques
 
-#### Backtracking [31/10/2021]
+#### # Backtracking [31/10/2021]
 
 ##### Definition
 
@@ -123,3 +123,26 @@ _Examples_ :
 
   The `'.'` character indicates empty cells.
 
+
+
+#### # Sliding Window [16/11/2021]
+
+##### Definition 
+
+As its name suggests, this technique involves taking a subset of data from a given array or string, expanding or shrinking that subset to satisfy certain conditions, hence the **sliding** effect.
+
+***When can we use it ?*** Generally speaking, the sliding window technique is useful when you need to keep track of a **contiguous** sequence of elements, such as summing up the values in a subarray.
+
+_Examples_:
+
+- **[1876. Substrings of Size Three with Distinct Characters]**  A string is **good** if there are no repeated characters.
+
+  Given a string `s`, return *the number of **good substrings** of length **three** in* `s`.
+
+  Note that if there are multiple occurrences of the same substring, every occurrence should be counted.
+
+  A **substring** is a contiguous sequence of characters in a string. [**Solved**](./leetcode/countGoodSubstrings.js)
+
+- **[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]**  Given an array of integers `arr` and two integers `k` and `threshold`.
+
+  Return *the number of sub-arrays* of size `k` and average greater than or equal to `threshold`. [**Solved**](./leetcode/numOfSubarrays.js)
