@@ -1,3 +1,3 @@
 # practice-ds
 
-[](./notes/notes.md)
+[notes](./notes/notes.md)
