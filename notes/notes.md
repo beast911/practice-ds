@@ -141,8 +141,8 @@ _Examples_:
 
   Note that if there are multiple occurrences of the same substring, every occurrence should be counted.
 
-  A **substring** is a contiguous sequence of characters in a string. [**Solved**](./leetcode/countGoodSubstrings.js)
+  A **substring** is a contiguous sequence of characters in a string. [**Solved**](../leetcode/countGoodSubstrings.js)
 
 - **[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]**  Given an array of integers `arr` and two integers `k` and `threshold`.
 
-  Return *the number of sub-arrays* of size `k` and average greater than or equal to `threshold`. [**Solved**](./leetcode/numOfSubarrays.js)
+  Return *the number of sub-arrays* of size `k` and average greater than or equal to `threshold`. [**Solved**](../leetcode/numOfSubarrays.js)
