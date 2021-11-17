@@ -1,6 +1,6 @@
-### Techniques
+# Techniques
 
-#### # Backtracking [31/10/2021]
+### # Backtracking [31/10/2021]
 
 ##### Definition
 
@@ -124,7 +124,7 @@ _Examples_ :
 
   The `'.'` character indicates empty cells.
 
-#### # Sliding Window [16/11/2021]
+### # Sliding Window [16/11/2021]
 
 ##### Definition
 
