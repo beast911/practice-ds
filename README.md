@@ -13,7 +13,7 @@ All backtracking type of problems generally will involve two steps:
 1. generating all possible subsets/candidates for solution.
 2. finding/extracting valid solutions out of it.
 
-*Optional*: Optimization involves remiving unnecessary branches created under generation subset step.
+_Optional_: Optimization involves remiving unnecessary branches created under generation subset step.
 
 _Examples_ :
 
@@ -88,9 +88,9 @@ _Examples_ :
 
 - Given an integer array nums and an integer k, return true if it is possible to divide this array into k non-empty subsets whose sums are all equal. **[Learned]**
 
-  _Note_:  need different type of optimization here because the result is a binary form of either true or false and not a collection from k^n to k*2^n
+  _Note_: need different type of optimization here because the result is a binary form of either true or false and not a collection from k^n to k\*2^n
 
-- __[1774. Closest Dessert Cost]__ You would like to make dessert and are preparing to buy the ingredients. You have `n` ice cream base flavors and `m` types of toppings to choose from. You must follow these rules when making your dessert:
+- **[1774. Closest Dessert Cost]** You would like to make dessert and are preparing to buy the ingredients. You have `n` ice cream base flavors and `m` types of toppings to choose from. You must follow these rules when making your dessert:
 
   - There must be **exactly one** ice cream base.
   - You can add **one or more** types of topping or have no toppings at all.
@@ -104,9 +104,9 @@ _Examples_ :
 
   You want to make a dessert with a total cost as close to `target` as possible.
 
-  Return *the closest possible cost of the dessert to* `target`. If there are multiple, return *the **lower** one.*
+  Return _the closest possible cost of the dessert to_ `target`. If there are multiple, return _the **lower** one._
 
-- __[494. Target Sum]__ You are given an integer array `nums` and an integer `target`.
+- **[494. Target Sum]** You are given an integer array `nums` and an integer `target`.
 
   You want to build an **expression** out of nums by adding one of the symbols `'+'` and `'-'` before each integer in nums and then concatenate all the integers.
 
@@ -124,33 +124,34 @@ _Examples_ :
 
   The `'.'` character indicates empty cells.
 
-
-
 #### # Sliding Window [16/11/2021]
 
-##### Definition 
+##### Definition
 
 As its name suggests, this technique involves taking a subset of data from a given array or string, expanding or shrinking that subset to satisfy certain conditions, hence the **sliding** effect.
 
-***When can we use it ?*** Generally speaking, the sliding window technique is useful when you need to keep track of a **contiguous** sequence of elements, such as summing up the values in a subarray.
+**_When can we use it ?_** Generally speaking, the sliding window technique is useful when you need to keep track of a **contiguous** sequence of elements, such as summing up the values in a subarray.
 
 _Examples_:
 
-- **[1876. Substrings of Size Three with Distinct Characters]**  A string is **good** if there are no repeated characters.
+- **[1876. Substrings of Size Three with Distinct Characters]** A string is **good** if there are no repeated characters.
 
-  Given a string `s`, return *the number of **good substrings** of length **three** in* `s`.
+  Given a string `s`, return _the number of **good substrings** of length **three** in_ `s`.
 
   Note that if there are multiple occurrences of the same substring, every occurrence should be counted.
 
   A **substring** is a contiguous sequence of characters in a string. [**Solved**](leetcode/countGoodSubstrings.js)
 
-- **[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]**  Given an array of integers `arr` and two integers `k` and `threshold`.
+- **[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]** Given an array of integers `arr` and two integers `k` and `threshold`.
 
-  Return *the number of sub-arrays* of size `k` and average greater than or equal to `threshold`. [**Solved**](leetcode/numOfSubarrays.js)
+  Return _the number of sub-arrays_ of size `k` and average greater than or equal to `threshold`. [**Solved**](leetcode/numOfSubarrays.js)
 
-- **[1004. Max Consecutive Ones III]**  Given a binary array `nums` and an integer `k`, return *the maximum number of consecutive* `1`*'s in the array if you can flip at most* `k` `0`'s. [**Learned**](leetcode/longestOnes.js)
+- **[1004. Max Consecutive Ones III]** Given a binary array `nums` and an integer `k`, return _the maximum number of consecutive_ `1`_'s in the array if you can flip at most_ `k` `0`'s. [**Learned**](leetcode/longestOnes.js)
 
-- **[1358. Number of Substrings Containing All Three Characters]** Given a string `s` consisting only of characters *a*, *b* and *c*.
+- **[1358. Number of Substrings Containing All Three Characters]** Given a string `s` consisting only of characters _a_, _b_ and _c_.
 
-  Return the number of substrings containing **at least** one occurrence of all these characters *a*, *b* and *c*.[**Learned**](leetcode/numberOfSubstrings.js)
+  Return the number of substrings containing **at least** one occurrence of all these characters _a_, _b_ and _c_.[**Learned**](leetcode/numberOfSubstrings.js)
 
+- **[1493. Longest Subarray of 1's After Deleting One Element]** Given a binary array nums, you should delete one element from it.
+
+Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray. [**Learned**](leetcode/longestSubarray.js)
