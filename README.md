@@ -155,3 +155,19 @@ _Examples_:
 - **[1493. Longest Subarray of 1's After Deleting One Element]** Given a binary array nums, you should delete one element from it.
 
 Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray. [**Learned**](leetcode/longestSubarray.js)
+
+- **[1031. Maximum Sum of Two Non-Overlapping Subarrays]** Given an integer array nums and two integers firstLen and secondLen, return the maximum sum of elements in two non-overlapping subarrays with lengths firstLen and secondLen.
+
+The array with length firstLen could occur before or after the array with length secondLen, but they have to be non-overlapping.
+
+A subarray is a contiguous part of an array.[**Need to come back for this**](leetcode/maxSumTwoNoOverlap.js)
+
+- **[1052. Grumpy Bookstore Owner]** There is a bookstore owner that has a store open for n minutes. Every minute, some number of customers enter the store. You are given an integer array customers of length n where customers[i] is the number of the customer that enters the store at the start of the ith minute and all those customers leave after the end of that minute.
+
+On some minutes, the bookstore owner is grumpy. You are given a binary array grumpy where grumpy[i] is 1 if the bookstore owner is grumpy during the ith minute, and is 0 otherwise.
+
+When the bookstore owner is grumpy, the customers of that minute are not satisfied, otherwise, they are satisfied.
+
+The bookstore owner knows a secret technique to keep themselves not grumpy for minutes consecutive minutes, but can only use it once.
+
+Return the maximum number of customers that can be satisfied throughout the day. [**Learned**](leetcode/maxSatisfied.js)
