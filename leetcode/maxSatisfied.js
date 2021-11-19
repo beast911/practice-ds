@@ -15,25 +15,25 @@ var maxSatisfied = function(customers, grumpy, minutes) {
   let result = baseSatisfied;
   let start = 0;
   let end = minutes - 1;
-  let inits = start;
   let currSatisfied = baseSatisfied;
-  while (inits <= end) {
-    if (grumpy[inits] === 1) {
-      // include
-      currSatisfied += customers[inits];
-    }
-    inits++;
-  }
-  result = Math.max(result, currSatisfied);
 
-  start++;
-  end++;
   while (end < customers.length) {
-    if (grumpy[start - 1] === 1) {
-      currSatisfied -= customers[start - 1];
-    }
-    if (grumpy[end] === 1) {
-      currSatisfied += customers[end];
+    if (start === 0) {
+      let inits = start;
+      while (inits <= end) {
+        if (grumpy[inits] === 1) {
+          // include
+          currSatisfied += customers[inits];
+        }
+        inits++;
+      }
+    } else {
+      if (grumpy[start - 1] === 1) {
+        currSatisfied -= customers[start - 1];
+      }
+      if (grumpy[end] === 1) {
+        currSatisfied += customers[end];
+      }
     }
     result = Math.max(result, currSatisfied);
 
