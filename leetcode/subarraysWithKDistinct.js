@@ -3,40 +3,39 @@
  * @param {number} k
  * @return {number}
  */
-var subarraysWithKDistinct = function(nums, k) {
-  let start = 0;
+var subarraysWithKDistinct = function (nums, k) {
   let end = 0;
   let resultSet = 0;
   let uniqueSet = new Map();
   while (end < nums.length) {
+    // increase start and validate
     if (uniqueSet.has(nums[end])) {
       uniqueSet.set(nums[end], uniqueSet.get(nums[end]) + 1);
     } else {
       uniqueSet.set(nums[end], 1);
     }
+    // console.log(uniqueSet)
     if (uniqueSet.size === k) {
       resultSet++;
     }
-
-    // console.log(start, end);
-    // increase start and validate
-    let s = start + 1;
+    let start = 0;
     const innerMap = new Map(uniqueSet);
-    while (end - s >= k) {
-      // console.log(uniqueSet);
-      if (innerMap.has(nums[s])) {
-        if (innerMap.get(nums[s]) > 0) {
-          innerMap.set(nums[s], innerMap.get(nums[s]) - 1);
+    while (start < end) {
+      if (end - start + 1 < k) {
+        break;
+      }
+      if (innerMap.has(nums[start])) {
+        if (innerMap.get(nums[start]) === 1) {
+          innerMap.delete(nums[start]);
         } else {
-          innerMap.delete(nums[s]);
+          innerMap.set(nums[start], innerMap.get(nums[start]) - 1);
         }
       }
       if (innerMap.size === k) {
         resultSet++;
       }
-      s++;
+      start++;
     }
-
     end++;
   }
   return resultSet;
@@ -44,4 +43,4 @@ var subarraysWithKDistinct = function(nums, k) {
 
 function isDistinctK() { }
 
-console.log(subarraysWithKDistinct([ 1, 2, 1, 2, 3 ], 2));
+console.log(subarraysWithKDistinct([1, 2, 1, 2, 3], 2));
