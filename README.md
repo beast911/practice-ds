@@ -178,3 +178,15 @@ A good array is an array where the number of different integers in that array is
 
 For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.
 A subarray is a contiguous part of an array. [**Learned**](leetcode/subarraysWithKDistinct.js)
+
+- **[718. Maximum Length of Repeated Subarray]** Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays. [**Learned**](leetcode/findLength.js)
+  _Note_: this is actually DP. Come back to this question again. Important concept to learn.
+
+- **[438. Find All Anagrams in a String]** Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. [**Learned**](leetcode/findAnagrams.js)
+
+__Note__: this is string matching. technique involved should be similar to Rabin-Karp algorithm for pattern match. Trick is to remember different mechanisms to compare strings like:
+  - ASCII pattern match
+  - exact string match
+  - Modulo hash value match
