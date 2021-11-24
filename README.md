@@ -186,7 +186,17 @@ A subarray is a contiguous part of an array. [**Learned**](leetcode/subarraysWit
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. [**Learned**](leetcode/findAnagrams.js)
 
-__Note__: this is string matching. technique involved should be similar to Rabin-Karp algorithm for pattern match. Trick is to remember different mechanisms to compare strings like:
-  - ASCII pattern match
-  - exact string match
-  - Modulo hash value match
+  _Note_: this is string matching. technique involved should be similar to Rabin-Karp algorithm for pattern match. Trick is to remember different mechanisms to compare strings like:
+    - ASCII pattern match
+    - exact string match
+    - Modulo hash value match
+  Come back to it when coming for string related questions.
+
+- **[904. Fruit Into Baskets]** You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces.
+
+You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow:
+
+You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.
+Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.
+Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
+Given the integer array fruits, return the maximum number of fruits you can pick. [**Learned**](leetcode/totalFruit.js)
