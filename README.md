@@ -132,6 +132,10 @@ As its name suggests, this technique involves taking a subset of data from a giv
 
 **_When can we use it ?_** Generally speaking, the sliding window technique is useful when you need to keep track of a **contiguous** sequence of elements, such as summing up the values in a subarray.
 
+**Note**: Sometimes, in string matching and cases where finding longest repeating char with `k` replacements, idea should be checking the length of the current window minus the max char count and seeing if that's bigger than k. Keep track of maximum count of replacements in each substring.
+
+**Note**: For string counting, maintaining a count map can be helpful as characters are only 26.
+
 _Examples_:
 
 - **[1876. Substrings of Size Three with Distinct Characters]** A string is **good** if there are no repeated characters.
@@ -196,7 +200,13 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow:
 
-You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.
-Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.
-Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
+  - You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.
+  - Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.
+  - Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
 Given the integer array fruits, return the maximum number of fruits you can pick. [**Learned**](leetcode/totalFruit.js)
+
+- **[424. Longest Repeating Character Replacement]** You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
+
+Return the length of the longest substring containing the same letter you can get after performing the above operations.[**Learned**](leetcode/characterReplacement.js)
+
+- **[3. Longest Substring Without Repeating Characters]** Given a string s, find the length of the longest substring without repeating characters.[**Learned**](leetcode/lengthOfLongestSubstring.js)

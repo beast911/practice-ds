@@ -41,6 +41,5 @@ var subarraysWithKDistinct = function (nums, k) {
   return resultSet;
 };
 
-function isDistinctK() { }
 
 console.log(subarraysWithKDistinct([1, 2, 1, 2, 3], 2));
