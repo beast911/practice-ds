@@ -130,6 +130,8 @@ _Optional_: Optimization involves remiving unnecessary branches created under ge
   </p>
 </details>
 
+---
+
 ### # Sliding Window [16/11/2021]
 
 ##### Definition
