@@ -112,7 +112,7 @@ _Examples_ :
 
   - For example, if `nums = [2, 1]`, you can add a `'+'` before `2` and a `'-'` before `1` and concatenate them to build the expression `"+2-1"`.
 
-  Return the number of different **expressions** that you can build, which evaluates to `target`. [**Solved**](blob/master/leetcode/findTargetSumWays.js)
+  Return the number of different **expressions** that you can build, which evaluates to `target`. [**Solved**](leetcode/findTargetSumWays.js)
 
 - **[37. Sudoku Solver]** Write a program to solve a Sudoku puzzle by filling the empty cells.
 
@@ -144,27 +144,27 @@ _Examples_:
 
   Note that if there are multiple occurrences of the same substring, every occurrence should be counted.
 
-  A **substring** is a contiguous sequence of characters in a string. [**Solved**](blob/master/leetcode/countGoodSubstrings.js)
+  A **substring** is a contiguous sequence of characters in a string. [**Solved**](leetcode/countGoodSubstrings.js)
 
 - **[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]** Given an array of integers `arr` and two integers `k` and `threshold`.
 
-  Return _the number of sub-arrays_ of size `k` and average greater than or equal to `threshold`. [**Solved**](blob/master/leetcode/numOfSubarrays.js)
+  Return _the number of sub-arrays_ of size `k` and average greater than or equal to `threshold`. [**Solved**](leetcode/numOfSubarrays.js)
 
-- **[1004. Max Consecutive Ones III]** Given a binary array `nums` and an integer `k`, return _the maximum number of consecutive_ `1`_'s in the array if you can flip at most_ `k` `0`'s. [**Learned**](blob/master/leetcode/longestOnes.js)
+- **[1004. Max Consecutive Ones III]** Given a binary array `nums` and an integer `k`, return _the maximum number of consecutive_ `1`_'s in the array if you can flip at most_ `k` `0`'s. [**Learned**](leetcode/longestOnes.js)
 
 - **[1358. Number of Substrings Containing All Three Characters]** Given a string `s` consisting only of characters _a_, _b_ and _c_.
 
-  Return the number of substrings containing **at least** one occurrence of all these characters _a_, _b_ and _c_.[**Learned**](blob/master/leetcode/numberOfSubstrings.js)
+  Return the number of substrings containing **at least** one occurrence of all these characters _a_, _b_ and _c_.[**Learned**](leetcode/numberOfSubstrings.js)
 
 - **[1493. Longest Subarray of 1's After Deleting One Element]** Given a binary array nums, you should delete one element from it.
 
-Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray. [**Learned**](blob/master/leetcode/longestSubarray.js)
+Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray. [**Learned**](leetcode/longestSubarray.js)
 
 - **[1031. Maximum Sum of Two Non-Overlapping Subarrays]** Given an integer array nums and two integers firstLen and secondLen, return the maximum sum of elements in two non-overlapping subarrays with lengths firstLen and secondLen.
 
 The array with length firstLen could occur before or after the array with length secondLen, but they have to be non-overlapping.
 
-A subarray is a contiguous part of an array.[**Need to come back for this**](blob/master/leetcode/maxSumTwoNoOverlap.js)
+A subarray is a contiguous part of an array.[**Need to come back for this**](leetcode/maxSumTwoNoOverlap.js)
 
 - **[1052. Grumpy Bookstore Owner]** There is a bookstore owner that has a store open for n minutes. Every minute, some number of customers enter the store. You are given an integer array customers of length n where customers[i] is the number of the customer that enters the store at the start of the ith minute and all those customers leave after the end of that minute.
 
@@ -174,21 +174,21 @@ When the bookstore owner is grumpy, the customers of that minute are not satisfi
 
 The bookstore owner knows a secret technique to keep themselves not grumpy for minutes consecutive minutes, but can only use it once.
 
-Return the maximum number of customers that can be satisfied throughout the day. [**Learned**](blob/master/leetcode/maxSatisfied.js)
+Return the maximum number of customers that can be satisfied throughout the day. [**Learned**](leetcode/maxSatisfied.js)
 
 - **[992. Subarrays with K Different Integers]** Given an integer array nums and an integer k, return the number of good subarrays of nums.
 
 A good array is an array where the number of different integers in that array is exactly k.
 
 For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.
-A subarray is a contiguous part of an array. [**Learned**](blob/master/leetcode/subarraysWithKDistinct.js)
+A subarray is a contiguous part of an array. [**Learned**](leetcode/subarraysWithKDistinct.js)
 
-- **[718. Maximum Length of Repeated Subarray]** Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays. [**Learned**](blob/master/leetcode/findLength.js)
+- **[718. Maximum Length of Repeated Subarray]** Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays. [**Learned**](leetcode/findLength.js)
   _Note_: this is actually DP. Come back to this question again. Important concept to learn.
 
 - **[438. Find All Anagrams in a String]** Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
 
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. [**Learned**](blob/master/leetcode/findAnagrams.js)
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. [**Learned**](leetcode/findAnagrams.js)
 
   _Note_: this is string matching. technique involved should be similar to Rabin-Karp algorithm for pattern match. Trick is to remember different mechanisms to compare strings like:
     - ASCII pattern match
@@ -203,12 +203,12 @@ You want to collect as much fruit as possible. However, the owner has some stric
   - You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.
   - Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.
   - Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
-Given the integer array fruits, return the maximum number of fruits you can pick. [**Learned**](blob/master/leetcode/totalFruit.js)
+Given the integer array fruits, return the maximum number of fruits you can pick. [**Learned**](leetcode/totalFruit.js)
 
 - **[424. Longest Repeating Character Replacement]** You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
 
-Return the length of the longest substring containing the same letter you can get after performing the above operations.[**Learned**](blob/master/leetcode/characterReplacement.js)
+Return the length of the longest substring containing the same letter you can get after performing the above operations.[**Learned**](leetcode/characterReplacement.js)
 
-- **[3. Longest Substring Without Repeating Characters]** Given a string s, find the length of the longest substring without repeating characters.[**Learned**](blob/master/leetcode/lengthOfLongestSubstring.js)
+- **[3. Longest Substring Without Repeating Characters]** Given a string s, find the length of the longest substring without repeating characters.[**Learned**](leetcode/lengthOfLongestSubstring.js)
 
-- **[862. Shortest Subarray with Sum at Least K]** Given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. If there is no such subarray, return -1.[**Learned**](blob/master/leetcode/shortestSubarray.js)
+- **[862. Shortest Subarray with Sum at Least K]** Given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. If there is no such subarray, return -1.[**Learned**](leetcode/shortestSubarray.js)
