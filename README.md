@@ -1,3 +1,5 @@
+(Blog_Home)[https://beast911.github.io/practice-ds/]
+
 # Techniques
 
 ### # Backtracking [31/10/2021]
