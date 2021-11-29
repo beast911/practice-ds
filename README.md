@@ -1,4 +1,4 @@
-(Blog_Home)[https://beast911.github.io/practice-ds/]
+[Blog_Home](https://beast911.github.io/practice-ds/)
 
 # Techniques
 
