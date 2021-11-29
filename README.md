@@ -147,6 +147,7 @@ As its name suggests, this technique involves taking a subset of data from a giv
 <details>
 <summary>_Examples_:</summary>
 <p>
+
 - **[1876. Substrings of Size Three with Distinct Characters]** A string is **good** if there are no repeated characters.
 
   Given a string `s`, return _the number of **good substrings** of length **three** in_ `s`.
