@@ -17,8 +17,9 @@ All backtracking type of problems generally will involve two steps:
 
 _Optional_: Optimization involves remiving unnecessary branches created under generation subset step.
 
-_Examples_ :
-
+<details>
+<summary>_Examples_ :</summary>
+<p>
 - Given `n` pairs of parentheses, write a function to _generate all combinations of well-formed parentheses_.
 
 - Given a directed acyclic graph (**DAG**) of `n` nodes labeled from `0` to `n - 1`, find all possible paths from node `0` to node `n - 1` and return them in **any order**. **[Learned]**
@@ -125,6 +126,8 @@ _Examples_ :
   3. Each of the digits `1-9` must occur exactly once in each of the 9 `3x3` sub-boxes of the grid.
 
   The `'.'` character indicates empty cells.
+  </p>
+</details>
 
 ### # Sliding Window [16/11/2021]
 
