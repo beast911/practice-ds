@@ -20,6 +20,7 @@ _Optional_: Optimization involves remiving unnecessary branches created under ge
 <details>
 <summary>_Examples_ :</summary>
 <p>
+
 - Given `n` pairs of parentheses, write a function to _generate all combinations of well-formed parentheses_.
 
 - Given a directed acyclic graph (**DAG**) of `n` nodes labeled from `0` to `n - 1`, find all possible paths from node `0` to node `n - 1` and return them in **any order**. **[Learned]**
