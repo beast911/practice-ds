@@ -144,8 +144,9 @@ As its name suggests, this technique involves taking a subset of data from a giv
 
 **Note**: For string counting, maintaining a count map can be helpful as characters are only 26.
 
-_Examples_:
-
+<details>
+<summary>_Examples_:</summary>
+<p>
 - **[1876. Substrings of Size Three with Distinct Characters]** A string is **good** if there are no repeated characters.
 
   Given a string `s`, return _the number of **good substrings** of length **three** in_ `s`.
@@ -219,3 +220,6 @@ _Examples_:
 - **[3. Longest Substring Without Repeating Characters]** Given a string s, find the length of the longest substring without repeating characters.[**Learned**](leetcode/lengthOfLongestSubstring.js)
 
 - **[862. Shortest Subarray with Sum at Least K]** Given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. If there is no such subarray, return -1.[**Learned**](leetcode/shortestSubarray.js)
+
+</p>
+</details>
