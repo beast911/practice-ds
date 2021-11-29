@@ -158,37 +158,36 @@ _Examples_:
 
 - **[1493. Longest Subarray of 1's After Deleting One Element]** Given a binary array nums, you should delete one element from it.
 
-Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray. [**Learned**](leetcode/longestSubarray.js)
+  Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray. [**Learned**](leetcode/longestSubarray.js)
 
 - **[1031. Maximum Sum of Two Non-Overlapping Subarrays]** Given an integer array nums and two integers firstLen and secondLen, return the maximum sum of elements in two non-overlapping subarrays with lengths firstLen and secondLen.
 
-The array with length firstLen could occur before or after the array with length secondLen, but they have to be non-overlapping.
+  The array with length firstLen could occur before or after the array with length secondLen, but they have to be non-overlapping.
 
-A subarray is a contiguous part of an array.[**Need to come back for this**](leetcode/maxSumTwoNoOverlap.js)
+  A subarray is a contiguous part of an array.[**Need to come back for this**](leetcode/maxSumTwoNoOverlap.js)
 
 - **[1052. Grumpy Bookstore Owner]** There is a bookstore owner that has a store open for n minutes. Every minute, some number of customers enter the store. You are given an integer array customers of length n where customers[i] is the number of the customer that enters the store at the start of the ith minute and all those customers leave after the end of that minute.
 
-On some minutes, the bookstore owner is grumpy. You are given a binary array grumpy where grumpy[i] is 1 if the bookstore owner is grumpy during the ith minute, and is 0 otherwise.
+  On some minutes, the bookstore owner is grumpy. You are given a binary array grumpy where grumpy[i] is 1 if the bookstore owner is grumpy during the ith minute, and is 0 otherwise.
 
-When the bookstore owner is grumpy, the customers of that minute are not satisfied, otherwise, they are satisfied.
+  When the bookstore owner is grumpy, the customers of that minute are not satisfied, otherwise, they are satisfied.
 
-The bookstore owner knows a secret technique to keep themselves not grumpy for minutes consecutive minutes, but can only use it once.
+  The bookstore owner knows a secret technique to keep themselves not grumpy for minutes consecutive minutes, but can only use it once.
 
-Return the maximum number of customers that can be satisfied throughout the day. [**Learned**](leetcode/maxSatisfied.js)
+  Return the maximum number of customers that can be satisfied throughout the day. [**Learned**](leetcode/maxSatisfied.js)
 
 - **[992. Subarrays with K Different Integers]** Given an integer array nums and an integer k, return the number of good subarrays of nums.
 
-A good array is an array where the number of different integers in that array is exactly k.
+  A good array is an array where the number of different integers in that array is exactly k.
 
-For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.
-A subarray is a contiguous part of an array. [**Learned**](leetcode/subarraysWithKDistinct.js)
+  For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.[**Learned**](leetcode/subarraysWithKDistinct.js)
 
 - **[718. Maximum Length of Repeated Subarray]** Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays. [**Learned**](leetcode/findLength.js)
   _Note_: this is actually DP. Come back to this question again. Important concept to learn.
 
 - **[438. Find All Anagrams in a String]** Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
 
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. [**Learned**](leetcode/findAnagrams.js)
+  An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. [**Learned**](leetcode/findAnagrams.js)
 
   _Note_: this is string matching. technique involved should be similar to Rabin-Karp algorithm for pattern match. Trick is to remember different mechanisms to compare strings like:
     - ASCII pattern match
@@ -198,12 +197,12 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 - **[904. Fruit Into Baskets]** You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces.
 
-You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow:
+  You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow:
 
   - You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.
   - Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.
   - Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
-Given the integer array fruits, return the maximum number of fruits you can pick. [**Learned**](leetcode/totalFruit.js)
+  Given the integer array fruits, return the maximum number of fruits you can pick. [**Learned**](leetcode/totalFruit.js)
 
 - **[424. Longest Repeating Character Replacement]** You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
 
