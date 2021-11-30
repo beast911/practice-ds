@@ -1,6 +1,13 @@
 [Blog_Home](https://beast911.github.io/practice-ds/)
 [Patterns](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
+---
+# Important data structures
+
+### # Heaps | Priority Queue
+
+---
+
 # Techniques
 
 ### # Backtracking [31/10/2021]
